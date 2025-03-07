@@ -1,0 +1,87 @@
+/* RegisterSelection.css */
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 2rem;
+}
+
+.register-logo {
+    width: 300px; /* Tamaño del logo más pequeño */
+    margin-bottom: 2rem; /* Espacio debajo del logo */
+}
+
+.register-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40; /* Color de texto oscuro */
+    margin-bottom: 1rem;
+}
+
+.register-subtitle {
+    font-size: 1.25rem;
+    color: #6c757d; /* Color de texto gris */
+    margin-bottom: 2rem;
+}
+
+.register-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espacio entre botones */
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-button {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.register-button.candidato {
+    background-color: #28a745; /* Verde para candidato */
+    color: white;
+}
+
+.register-button.candidato:hover {
+    background-color: #218838; /* Verde oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de levantar */
+}
+
+.register-button.empresa {
+    background-color: #17a2b8; /* Azul para empresa */
+    color: white;
+}
+
+.register-button.empresa:hover {
+    background-color: #138496; /* Azul oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de levantar */
+}
+
+.register-google-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ffffff; /* Blanco */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #757575;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.register-google-button:hover {
+    background-color: #f8f9fa; /* Gris claro */
+}
